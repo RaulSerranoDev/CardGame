@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<imperio>
+  <languages>
+    <language>
+      <name>English</name>
+      <cards>
+        <minionCard key ="0">
+          <object name="Name">Magma Spawn</object>
+          <object name="Description">Charge</object>
+          <object name="GoldCost">2</object>
+          <object name="Image">Card/Minions/MagmaSpawn</object>
+          <object name="Attack">2</object>
+          <object name="Health">2</object>
+          <object name="Mechanics">CHARGE</object>
+        </minionCard>
+
+        <minionCard key ="1">
+          <object name="Name">Necromancer</object>
+          <object name="Description">Stealth</object>
+          <object name="GoldCost">2</object>
+          <object name="Image">Card/Minions/Necromancer</object>
+          <object name="Attack">2</object>
+          <object name="Health">2</object>
+          <object name="Mechanics">STEALTH</object>
+        </minionCard>
+
+        <minionCard key ="2">
+          <object name="Name">Sorcerer</object>
+          <object name="Description">Windfury</object>
+          <object name="GoldCost">2</object>
+          <object name="Image">Card/Minions/Sorcerer</object>
+          <object name="Attack">2</object>
+          <object name="Health">2</object>
+          <object name="Mechanics">WINDFURY</object>
+        </minionCard>
+
+        <minionCard key ="3">
+          <object name="Name">Templar</object>
+          <object name="Description">Taunt and Windfury</object>
+          <object name="GoldCost">2</object>
+          <object name="Image">Card/Minions/Templar</object>
+          <object name="Attack">2</object>
+          <object name="Health">2</object>
+          <object name="Mechanics">TAUNT,WINDFURY</object>
+        </minionCard>
+
+        <spellCard key ="4">
+          <object name="Name">Ira Sangrienta</object>
+          <object name="Description">Hace 1 de daño al esbirro. Obtiene +2 de ataque y viento furioso</object>
+          <object name="GoldCost">2</object>
+          <object name="Image">Card/Spells/Blaze</object>
+          <object name="SpellTarget">Minion</object>
+          <object name="HealthEffect">-1</object>
+          <object name="AttackEffect">2</object>
+          <object name="MechanicsEffect">WINDFURY</object>
+        </spellCard>
+
+        <spellCard key ="5">
+          <object name="Name">Bendición de Reyes</object>
+          <object name="Description">Otorga +2/+2 a un esbirro aliado y provocar</object>
+          <object name="GoldCost">2</object>
+          <object name="Image">Card/Spells/Oberons-face</object>
+          <object name="SpellTarget">AllyMinion</object>
+          <object name="MaxHealthEffect">2</object>
+          <object name="HealthEffect">2</object>
+          <object name="AttackEffect">2</object>
+          <object name="MechanicsEffect">TAUNT</object>
+        </spellCard>
+
+        <spellCard key ="6">
+          <object name="Name">Disparo arcano</object>
+          <object name="Description">Hace 2 de daño a un esbirro enemigo</object>
+          <object name="GoldCost">2</object>
+          <object name="Image">Card/Spells/electricity</object>
+          <object name="SpellTarget">EnemyMinion</object>
+          <object name="HealthEffect">-2</object>
+        </spellCard>
+
+        <spellCard key ="7">
+          <object name="Name">Bola de fuego</object>
+          <object name="Description">Hace 4 de daño a un personaje</object>
+          <object name="GoldCost">2</object>
+          <object name="Image">Card/Spells/heart</object>
+          <object name="SpellTarget">Character</object>
+          <object name="HealthEffect">-4</object>
+        </spellCard>
+
+        <spellCard key ="8">
+          <object name="Name">Curación</object>
+          <object name="Description">Cura 6 de salud a un personaje aliado</object>
+          <object name="GoldCost">2</object>
+          <object name="Image">Card/Spells/federal</object>
+          <object name="SpellTarget">AllyCharacter</object>
+          <object name="HealthEffect">6</object>
+        </spellCard>
+
+        <spellCard key ="9">
+          <object name="Name">Descarga eléctrica</object>
+          <object name="Description">Hace 6 de daño a un enemigo</object>
+          <object name="GoldCost">2</object>
+          <object name="Image">Card/Spells/Blaze</object>
+          <object name="SpellTarget">EnemyCharacter</object>
+          <object name="HealthEffect">-6</object>
+        </spellCard>
+
+        <spellCard key ="10">
+          <object name="Name">Bomba de humo</object>
+          <object name="Description">Otorga sigilo a todos los esbirros</object>
+          <object name="GoldCost">2</object>
+          <object name="Image">Card/Spells/storm</object>
+          <object name="SpellTarget">AllMinions</object>
+          <object name="MechanicsEffect">STEALTH</object>
+        </spellCard>
+
+        <spellCard key ="11">
+          <object name="Name">¡En guardia!</object>
+          <object name="Description">Otorga provocar a todos los esbirros aliados</object>
+          <object name="GoldCost">2</object>
+          <object name="Image">Card/Spells/revolt</object>
+          <object name="SpellTarget">AllAllyMinions</object>
+          <object name="MechanicsEffect">TAUNT</object>
+        </spellCard>
+        
+        <spellCard key ="12">
+          <object name="Name">Fogonazo</object>
+          <object name="Description">Hace 4 de daño a todos los esbirros enemigos</object>
+          <object name="GoldCost">2</object>
+          <object name="Image">Card/Spells/Suspended-magma</object>
+          <object name="SpellTarget">AllEnemyMinions</object>
+          <object name="HealthEffect">-4</object>
+        </spellCard>
+
+        <spellCard key ="13">
+          <object name="Name">Fuego Infernal</object>
+          <object name="Description">Hace 3 de daño a todos los personajes</object>
+          <object name="GoldCost">2</object>
+          <object name="Image">Card/Spells/brutal</object>
+          <object name="SpellTarget">AllCharacters</object>
+          <object name="HealthEffect">-3</object>
+        </spellCard>
+
+        <spellCard key ="14">
+          <object name="Name">Circulo de sanación</object>
+          <object name="Description">Otorga 2 de salud a todos los personajes aliados</object>
+          <object name="GoldCost">2</object>
+          <object name="Image">Card/Spells/Theocratic</object>
+          <object name="SpellTarget">AllAllyCharacters</object>
+          <object name="HealthEffect">2</object>
+          <object name="MaxHealthEffect">2</object>
+        </spellCard>
+
+        <spellCard key ="15">
+          <object name="Name">Nova</object>
+          <object name="Description">Hace 2 de daño a todos los personajes enemigos</object>
+          <object name="GoldCost">2</object>
+          <object name="Image">Card/Spells/Stone</object>
+          <object name="SpellTarget">AllEnemyCharacters</object>
+          <object name="HealthEffect">-2</object>
+        </spellCard>
+
+      </cards>
+      <decks>
+        <deck>
+          <card>
+            <object name="ID">0</object>
+            <object name="Copies">2</object>
+          </card>
+          <card>
+            <object name="ID">1</object>
+            <object name="Copies">3</object>
+          </card>
+          <card>
+            <object name="ID">2</object>
+            <object name="Copies">2</object>
+          </card>
+          <card>
+            <object name="ID">3</object>
+            <object name="Copies">3</object>
+          </card>
+          <card>
+            <object name="ID">4</object>
+            <object name="Copies">1</object>
+          </card>
+          <card>
+            <object name="ID">5</object>
+            <object name="Copies">1</object>
+          </card>
+          <card>
+            <object name="ID">6</object>
+            <object name="Copies">1</object>
+          </card>
+          <card>
+            <object name="ID">7</object>
+            <object name="Copies">1</object>
+          </card>
+          <card>
+            <object name="ID">8</object>
+            <object name="Copies">1</object>
+          </card>
+          <card>
+            <object name="ID">9</object>
+            <object name="Copies">1</object>
+          </card>
+          <card>
+            <object name="ID">10</object>
+            <object name="Copies">1</object>
+          </card>
+          <card>
+            <object name="ID">11</object>
+            <object name="Copies">1</object>
+          </card>
+          <card>
+            <object name="ID">12</object>
+            <object name="Copies">1</object>
+          </card>
+          <card>
+            <object name="ID">13</object>
+            <object name="Copies">1</object>
+          </card>
+          <card>
+            <object name="ID">14</object>
+            <object name="Copies">1</object>
+          </card>
+          <card>
+            <object name="ID">15</object>
+            <object name="Copies">1</object>
+          </card>
+        </deck>
+        <deck>
+          <card>
+            <object name="ID">0</object>
+            <object name="Copies">3</object>
+          </card>
+          <card>
+            <object name="ID">1</object>
+            <object name="Copies">2</object>
+          </card>
+          <card>
+            <object name="ID">2</object>
+            <object name="Copies">3</object>
+          </card>
+          <card>
+            <object name="ID">3</object>
+            <object name="Copies">2</object>
+          </card>
+          <card>
+            <object name="ID">4</object>
+            <object name="Copies">1</object>
+          </card>
+          <card>
+            <object name="ID">5</object>
+            <object name="Copies">1</object>
+          </card>
+          <card>
+            <object name="ID">6</object>
+            <object name="Copies">1</object>
+          </card>
+          <card>
+            <object name="ID">7</object>
+            <object name="Copies">1</object>
+          </card>
+          <card>
+            <object name="ID">8</object>
+            <object name="Copies">1</object>
+          </card>
+          <card>
+            <object name="ID">9</object>
+            <object name="Copies">1</object>
+          </card>
+          <card>
+            <object name="ID">10</object>
+            <object name="Copies">1</object>
+          </card>
+          <card>
+            <object name="ID">11</object>
+            <object name="Copies">1</object>
+          </card>
+          <card>
+            <object name="ID">12</object>
+            <object name="Copies">1</object>
+          </card>
+          <card>
+            <object name="ID">13</object>
+            <object name="Copies">1</object>
+          </card>
+          <card>
+            <object name="ID">14</object>
+            <object name="Copies">1</object>
+          </card>
+          <card>
+            <object name="ID">15</object>
+            <object name="Copies">1</object>
+          </card>
+        </deck>
+      </decks>
+
+    </language>
+  </languages>
+</imperio>
